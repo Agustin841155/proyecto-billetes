@@ -1,0 +1,6 @@
+0 billete$20
+1 billete$50
+2 billete$100
+3 billete$200
+4 billete$500
+5 billete$1000
