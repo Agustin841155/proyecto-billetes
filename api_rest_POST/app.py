@@ -38,17 +38,17 @@ class Upload():
             prediction = model.predict(data)
 
             for i in prediction:
-                if i[0] > 0.8:
+                if i[0] > 0.7:
                     billete ="Es un billete de $20"
-                elif i[1] > 0.8:
+                elif i[1] > 0.7:
                     billete ="Es un billete de $50"
-                elif i[2] > 0.8:
+                elif i[2] > 0.7:
                     billete ="Es un billete de $100 pesos"
-                elif i[3] > 0.8:
+                elif i[3] > 0.7:
                     billete ="Es un billete de $200 pesos"
-                elif i[4] > 0.8:
+                elif i[4] > 0.7:
                     billete ="Es un billete de $500 pesos"
-                elif i[5] > 0.8:
+                elif i[5] > 0.7:
                     billete = "Es un billete de $1000 pesos"
                 else:
                     billete = "No reconozco el billete lo siento :("     
